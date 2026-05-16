@@ -1,0 +1,29 @@
+{
+  "name": "monad-trainsync-orchestrator",
+  "version": "1.0.0",
+  "description": "Monad TrainSync DePIN - x402 Orchestrator Server (Financial & Trust Gateway)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.7",
+    "express": "5.1.0",
+    "socket.io": "4.8.1",
+    "uuid": "11.1.0",
+    "viem": "2.26.1"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/express": "5.0.1",
+    "@types/node": "22.14.1",
+    "@types/uuid": "10.0.0",
+    "tsx": "4.19.3",
+    "typescript": "5.8.3"
+  }
+}
